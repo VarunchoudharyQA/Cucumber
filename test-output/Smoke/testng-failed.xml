@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke]">
+  <test name="Cloudamize Login(failed)">
+    <classes>
+      <class name="com.cloudamize.cmp.automation.cucumber.runners.LoginTestRunner$RunTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.cloudamize.cmp.automation.cucumber.runners.LoginTestRunner$RunTest -->
+    </classes>
+  </test> <!-- Cloudamize Login(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
